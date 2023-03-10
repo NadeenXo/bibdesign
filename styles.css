@@ -1,0 +1,92 @@
+/* D8E2DC
+FFE5D9
+FFCAD4
+F4ACB7
+9D8189 
+A51848*/
+
+:root {
+    --gray: #D8E2DC;
+    --Champagnepink: #FFE5D9;
+    --pink: #FFCAD4;
+    --Cherrypink: #F4ACB7;
+    --Mountpink: #9D8189;
+    --darkpink: #A51848;
+    --shadow: #d0cece;
+    --white:rgb(255, 255, 255);
+    --black:rgb(0, 0, 0);
+
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+
+
+/* login */
+.login{
+    background-color: var(--gray);
+    margin-top: 20px;
+    border-radius: 10%;
+    box-shadow: 5px 10px var(--shadow);
+    max-width: 600px;
+    position: relative;
+    padding-left: 40px;
+
+}
+
+.login form .forget{
+    /* left: 50px; */
+     margin-left: auto;
+     margin-right: 10px;
+    color: var(--black);
+    /* width: 100%;
+    display: flex; */
+}
+.login #submitBtn {
+    /* position: absolute; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* margin-left: auto;
+     margin-right: auto; */
+}
+
+button:hover {
+    opacity:0.9;
+}
+.login .hrLine h6 {
+
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: var(--black);
+    margin: 8px 1px;
+
+}
+.login .hrLine h6::before,
+.login .hrLine h6::after{
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+
+.login #signup {
+    background-color: var(--darkpink);
+    position: relative;
+    margin: 15px auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+
+}
+.login #signup:hover {
+    opacity:0.9;
+}
