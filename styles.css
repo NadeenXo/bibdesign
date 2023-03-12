@@ -27,8 +27,8 @@
     /* margin: auto auto auto 30%; */
     border-radius: 5px;
     box-shadow: 5px 5px 4px 2px var(--shadow);
-    max-width: 500px;
-    position: relative;
+    max-width: 600px;
+    /* position: relative; */
     padding: 20px;
     position: fixed;
     top: 20%;
@@ -96,6 +96,14 @@ button:hover {
 }
 
 @media (max-width: 768px) { 
+    .login{
+        width: 100%;
+        position: relative;
+        left: 2px;
+        right: 2px;
+        bottom: 30px;
+        margin: 3px;
+    }
     .login #signinBtn , .login #signupBtn{
         width: 100%;
     }
