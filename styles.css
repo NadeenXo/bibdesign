@@ -9,6 +9,8 @@
     --shadow: #d0cece;
     --white:rgb(255, 255, 255);
     --black:rgb(0, 0, 0);
+    --pluralOrange:#f15b2a;
+    --pluralpink: #ec008c;
 
   }
 
@@ -16,13 +18,19 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:var(--black);
+}
 
+label{
+    /* color: var(--pluralpink); */
+}
 .login .Pusteblume{
     position: absolute;
 }
 /* login */
 .login{
-    background-color: var(--gray);
+    background-color: var(--white);
     
     /* margin: auto auto auto 30%; */
     border-radius: 5px;
@@ -48,7 +56,7 @@
 }
 
 .login #signinBtn {
-    background-color: var(--darkpink);
+    background-color: var(--pluralpink);
     color: var(--white);
     justify-content: center;
     align-items: center;
@@ -83,7 +91,7 @@ button:hover {
 }
 
 .login #signupBtn {
-    background-color: var(--darkpink);
+    background-color: var(--pluralpink);
     position: relative;
     margin: 15px auto;
     justify-content: center;
