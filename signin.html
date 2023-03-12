@@ -17,38 +17,45 @@
 
 <body>
 
+    <div class="Pusteblume">
+        <img src="imgs/Pusteblume.png" width="350px">
+    </div>
     <div class="col-6 container login ">
         <div class="row">
             <form>
-
-                <div class="mt-3 mb-3 row">
+                <div class=" mb-3 row">
                     <label for="username" class="col-sm-3 col-form-label">UserName</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-12">
                         <input type="text" class="form-control" id="username" placeholder="username">
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
 
-                    <div class="col-sm-10">
+                    <div class="col-sm-12">
                         <input type="password" class="form-control" id="inputPassword">
                     </div>
-                    <a class="col-sm-6 forget">Forget password?</a>
+
                 </div>
-                <div class="form-check mb-3">
-                    <input class="form-check-input" type="checkbox" value="" id="rememberMe">
-                    <label class="form-check-label" for="rememberMe">
-                        Remember me
-                    </label>
+                <div class="rememberForget">
+                <div class="form-check mb-3 ">
+                        <input class="form-check-input" type="checkbox"  id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">
+                            Remember me
+                        </label> 
                 </div>
-                <div class="mb-3 row" id="submitBtn">
-                    <button type="submit" class=" col-sm-3 btn btn-primary ">Log in</button>
+                <div>
+                    <a class="forget">Forget password?</a>
+                </div>
+            </div>
+                <div class="mb-3 row">
+                    <button type="submit" class=" col-sm-3 btn " id="signinBtn">Sign in</button>
                 </div>
             </form>
         </div>
         <div class="hrLine row">
             <h6>New to Bib?</h6>
-            <a type="button" class=" col-sm-3 btn  " id="signup">Sign up</a>
+            <a type="button" class=" col-sm-3 btn  " id="signupBtn">Sign up</a>
 
 
         </div>
